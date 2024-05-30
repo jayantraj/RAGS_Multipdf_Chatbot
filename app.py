@@ -6,11 +6,11 @@ from openai import OpenAI
 import streamlit as st
 
 # loads the environment variables
-load_dotenv()
+# load_dotenv()
 
 # Retrieve API keys from environment variables
-pinecone_api_key = os.getenv("PINECONE_API_KEY")
-openai_api_key = os.getenv("OPENAI_API_KEY")
+pinecone_api_key = st.secrets.PINECONE_API_KEY
+openai_api_key = st.secrets.OPENAI_API_KEY
 
 # setup openai
 client = OpenAI(api_key=openai_api_key)
