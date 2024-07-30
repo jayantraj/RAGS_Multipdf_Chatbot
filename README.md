@@ -1,4 +1,5 @@
 **Question Answering RAG ChatBot**
+
 This repository contains the code for a Question Answering (QA) Retrieval-Augmented Generation (RAG) ChatBot. 
 The bot leverages Pinecone's Vector Database for efficient similarity search and retrieval and is deployed using Streamlit for an interactive user interface.
 
