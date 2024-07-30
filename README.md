@@ -20,3 +20,24 @@ Streamlit
 Pinecone
 
 Hugging Face Transformers (optional, for custom models)
+
+
+**Usage**
+
+Once the application is running, you can access the chat interface in your web browser. 
+Enter your questions, and the bot will provide answers based on the stored knowledge base.
+
+**Customization**
+
+Adding Your Own Data
+
+To customize the bot with your own data, you can:
+
+Preprocess your documents and generate embeddings.
+Index the embeddings in the Pinecone vector database.
+
+**Modifying the Model**
+
+You can replace the underlying model with any transformer model from the Hugging Face library. 
+
+Update the model loading and inference code in the app.py file as needed.
