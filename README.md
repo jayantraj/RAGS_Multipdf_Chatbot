@@ -14,6 +14,9 @@ Streamlit Deployment: The bot is deployed using Streamlit, providing a user-frie
 **Prerequisites**
 
 Python 3.7 or higher
+
 Streamlit
+
 Pinecone
+
 Hugging Face Transformers (optional, for custom models)
